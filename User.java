@@ -12,7 +12,7 @@
     /** Creates a user with an empty list of followees. */
     public User(String name) {
         this.name = name;
-        follows = new String[maxfCount]; // fixed-size array for storing followees
+        follows = new String[maxfCount]; // fixed-s.....ize array for storing followees
         fCount = 0;                      // initial number of followees
     }
 
